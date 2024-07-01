@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Yumepo{
+    background-color: #10316B;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed; /* ヘッダーを固定 */
+    top: 0; /* ヘッダーをページの上部に配置 */
+    z-index: 1000;
+}
+h2.Yume{
+    font-family: "Candal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 2px 20px 8px 20px;
+}
+ul.li{
+    font-family: "Candal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.経験,
+.on{
+    font-family: "Candal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    text-align: center;
+    color: #FFE867;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.navbar ul li a{
+    color: #F2F7FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: #FFE867;
+    transition: all 0.3s;
+}
+.btn{
+    background-color: #FFE867;
+    color: #0B409C;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    border-radius: 20px;
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5% 0 5%;
+
+}
+.full-screen-background {
+    height: 100vh; 
+    background-image: url('img/aurora.jpg'); 
+    background-size: cover; /* 画像を全体に広げる */
+    background-position: center; /* 画像を中央に配置 */
+    display: flex; /* 子要素を中央に配置するために flex を使用 */
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: white; /* テキストの色（白色） */
+    text-align: center; /* テキストを中央に配置 */
+    font-family: Arial, sans-serif;
+}
+.full-screen-background h1 {
+    font-size: 3em; 
+}
+.full-screen-background p {
+    font-size: 1.5em; 
+    margin-top: 20px; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5% 0 5%;
+
+}
+.full-screen-background {
+    height: 100vh; 
+    background-image: url('img/aurora.jpg'); 
+    background-size: cover; /* 画像を全体に広げる */
+    background-position: center; /* 画像を中央に配置 */
+    display: flex; /* 子要素を中央に配置するために flex を使用 */
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: white; /* テキストの色（白色） */
+    text-align: center; /* テキストを中央に配置 */
+    font-family: Arial, sans-serif;
+}
+.full-screen-background h1 {
+    font-size: 3em; 
+}
+.full-screen-background p {
+    font-size: 1.5em; 
+    margin-top: 20px; 
+}
+.content{
+    width: 100%;
+    padding: 100px 30px  70px 30px;
+    background-color: #F2F7FF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 ;
+}
+.video1 {
+    width: 100%;
+    max-width: 400px; /* 例として最大幅を500pxに制限 */
+    height: auto; /* 高さを自動調整 */
+}
+.video1 iframe {
+    width: 100%; /* 動画の幅を100%に設定 */
+    height: 240px; /* 動画の高さを315pxに固定（必要に応じて調整可能） */
+    margin: 90px 60px 10px 150px ;
+}
+.content .mm{
+    width: 200px;
+    text-align: center;
+    margin-top: 180px;
+    margin-right: 180px;
+    font-size: 30px;
+    color: #F2F7FF;
+    background-color: #10316B;
+    text-decoration: none;
+    padding: 10px 20px 10px 0;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 2px;
+}
+.Experience{
+    padding: 60px 0 0 0;
+    width: 250px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 480px;
+    font-size: 30px;
+    color: #FFE867;
+    background-color: #F2F7FF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.content .aboutme{
+    padding-top: -70px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 120px;
+    
+}
+.aboutme {
+    margin-left: 150px; 
+    padding-left: 30px;
+}
+
+.content .mm:hover{
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #FFE867;
+    font-size: 31px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.Experience{
+    padding: 60px 0 0 0;
+    width: 250px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 480px;
+    font-size: 30px;
+    color: #FFE867;
+    background-color: #F2F7FF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.Experience:hover{
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #0B409C;
+    font-size: 31px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.経験{
+    display: flex;
+    justify-content: center; /* テキストを中央揃え */
+    align-items: center; /* 縦方向にも中央揃え */
+    height: 30px;
+    margin-top: 20px;
+}
+  .slider {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 60px 0;
+    margin-top: 1px;
+  }
+  .slides {
+    display: flex;
+    width: 200%;
+   
+  }
+  .slide {
+    flex-basis: 50%;
+    display:flex;
+    align-items: center;
+    width: 100%; height: 100%; object-fit: cover;
+    gap: 27px;
+  }
+  .slide a {
+    flex: 0 0 173px; /* 画像の幅 */
+    height: 173px; /* 画像の高さ */
+    position: relative;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slides:hover{
+    animation-play-state: paused
+}
+  .slide {
+    i{
+      flex-basis: var(--logo-width, 16.67%);
+    }
+  }
+  .slides {
+    animation: slide var(--duration, 10s) linear infinite;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+.main{
+    background-color: #F2F7FF;
+    width: 100%;
+    height: auto;
+    padding: 60px 200px 60px 250px;
+    display: flex;
+    margin: 0 ;
+    justify-content: center; 
+    align-items: center;
+}
+.fa-regular.fa-lightbulb.fa-10x{
+    color: #10316B;
+    text-align: left;
+    margin: 0 0 0 20px;
+}
+
+.Idea{
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    display: inline-block;
+    font-weight: bold;   
+}
+.アイデア{
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 40px;
+    color: #F2F7FF;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #10316B;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;  
+}
+.アイデア:hover{
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #FFE867;
+    font-size: 31px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.main.Idea.on{
+    font-size: 40px;
+    color: #10316B;
+    padding-top: 30px;
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block
+}
+.on{
+    margin-top: 20px;
+}
+.footer{
+    background-color:#10316B;
+    font-size: 10px;
+    color: #F2F7FF;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer.author-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.author,
+.copyright,
+.email {
+    flex: 1; 
+    padding: 0 10px; 
+    text-decoration: none;
+}
+.author-info {
+    display: flex;
+    justify-content: space-around; /* 要素を均等に配置 */
+    flex-wrap: wrap; /* レスポンシブ対応のために flexbox を折り返す */
+}
+.email{
+    color: #F2F7FF;
+}
+.aboutme,
+.Experience,
+.アイデア{
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h1.poch{
+    margin: 150px 20px 20px 20px;
+    color: #10316B;
+    text-align: center;
+    font-family: "Candal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.基本情報 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+ 
+}
+.基本情報 h3 {
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.基本情報 .content2 {
+    overflow: hidden;
+   
+}
+.基本情報 ul {
+    margin-left: 80px;
+}
+.基本情報 .写真 {
+    float: right;
+    width: 13%;
+    margin-top: -170px;
+    margin-right: 70px;
+}
+.基本情報 .写真 img {
+    max-width: 100%;
+}
+.skill {
+    width: 80%;
+    margin: 30px auto; 
+    overflow: hidden;
+  
+}
+.skill h3 {
+    width: 25%; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.skill .content3 {
+    overflow: hidden;
+}
+.skill ul {
+    margin-left: 80px; 
+}
+.hobby {
+    width: 80%;
+    margin: 30px auto; 
+    overflow: hidden;
+   
+}
+.hobby h3 {
+    width: 25%; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.hobby .content4 {
+    overflow: hidden;
+}
+.hobby ul {
+    margin-left: 80px; 
+}
+.tokugi {
+    width: 80%;
+    margin: 30px auto; 
+    overflow: hidden;
+}
+.tokugi h3 {
+    width: 25%; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.tokugi .content5 {
+    overflow: hidden;
+    
+}
+.tokugi ul {
+    margin-left: 80px; 
+}
+
+.video-list {
+    display: flex;
+    gap: 40px; 
+    overflow-x: auto;
+    list-style-type: none;
+    margin-top: 40px;
+}
+.video {
+    list-style-type: none; 
+    margin: 0;
+    display: inline-block; width: 300px; 
+    flex: 0 0 auto;
+}
+.video video {
+    width: 100%; 
+}
+.dropdown1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 92px;
+    z-index: 1000;
+}
+.dropdown1 button{
+    background-color: #FFE867;
+    color: #0B409C;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown1 a{
+    display: block;
+    color: #0B409C;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown1 .dropcontent1{
+    display: none;
+    position: absolute;
+    background-color: #F2F7FF;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px gray;
+}
+.dropdown1:hover .dropcontent1{
+    display: block;
+}
+.dropdown1:hover button{
+    background-color: #FFE867;
+}
+.dropdown1 a:hover{
+    background-color: #10316b8e;
+}
+.no1{
+    background-color: #F2F7FF;
+    padding: 20px 0 30px 0;
+}
+h1.ja{
+    margin-top: 140px;
+    text-align: center;
+    color: #10316B;
+    font-family: "Candal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.J {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+.pe {
+    width: 100%; 
+}
+.Japan{
+    margin-top: 40px;
+    color: #0B409C;
+}
+.ac{
+    margin-top: 10px;
+}
+.te {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 40px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 40px 0 10px 0;
+}
+.timeline{
+    margin: 20px 20px 20px 270px;
+}
+.event {
+    margin-bottom: 30px; /* 各イベント間の余白 */
+}
+.event-details {
+    padding-right: 20px; /* 右側の余白 */
+}
+.sapo{
+    margin-left: 50px;
+}
+.event-photo {
+    width: 300px; 
+    margin-left: 100px;
+}
+.event-photo img {
+    width: 100%; /* 写真を親要素に合わせる */
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+.kan{
+    background-color: #F2F7FF;
+    margin: 10px;
+    padding: 30px 100px ;
+
+}
+.ka{
+    padding: 0 0 0 100px;
+}
+.te1 {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 30px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+.timeline1{
+    margin: 20px 20px 20px 50px;
+}
+.event1 {
+    margin-bottom: 30px; /* 各イベント間の余白 */
+}
+.event-details1 {
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.sapo1{
+    margin-left: 40px;
+}
+.event-photo1 {
+    width: 300px; 
+    margin-left: 170px;
+}
+.event-photo1 img {
+    width: 100%; /* 写真を親要素に合わせる */
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+
+.te2 {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 40px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+.timeline2{
+    margin: 20px 20px 20px 150px;
+}
+.event2 {
+    margin-bottom: 30px; /* 各イベント間の余白 */
+}
+.event-details2 {
+   padding-right: 20px; 
+}
+.sapo2{
+    margin-left: 50px;
+}
+.event-video {
+    width: 300px; 
+    margin-left: 70px;
+}
+.event-video video {
+    width: 140%; /* 写真を親要素に合わせる */
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+
+.te3 {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 40px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+.timeline3{
+    margin: 90px 50px 20px 30px;
+}
+.event3 {
+    margin-bottom: 30px; /* 各イベント間の余白 */
+}
+.event-details3 {
+    padding-left: 120px; 
+    
+}
+.sapo3{
+    margin-left: 50px;
+}
+.event-photo3 {
+    width: 300px; 
+    margin-left: 100px;
+}
+.event-photo3 img {
+    width: 100%; /* 写真を親要素に合わせる */
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+.te4 {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 30px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 0px 20px 0px 90px;
+}
+.timeline4{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}   
+.event4 {
+    margin-top: 30px; /* 各イベント間の余白 */
+}
+.event-details4 {
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.sapo4{
+    margin-left: 40px;
+}
+.event-photo4 {
+    width: 300px; 
+    height: 300px;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.event-photo4 img {
+    width: 100%; /* 写真を親要素に合わせる */
+    margin-top: 30px;
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+
+.te5 {
+    align-items: flex-start; /* 子要素を上端に揃える */
+    gap: 30px; /* 子要素間の間隔 */
+    display: flex;
+    margin: 0px 20px 0px 90px;
+}
+.timeline5{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}   
+.event5 {
+    margin-top: 30px; /* 各イベント間の余白 */
+}
+.event-details5 {
+    padding-left: 140px;
+    padding-top: 60px;
+}
+.sapo5{
+    margin-left: 40px;
+}
+.event-photo5 {
+    width: 200px; 
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.event-photo5 img {
+    width: 100%; /* 写真を親要素に合わせる */
+   
+    height: auto; /* 高さは自動調整 */
+    display: block; /* インライン要素の余白を削除 */
+}
+.Experience{
+    background-color: #F2F7FF;
+}
+.学生時代{
+  
+    padding: 170px 0 0 0;
+    text-align: center;
+}
+
+.学生時代 .学生{
+    color: #0B409C;
+}
+
+.OMGcard {
+    flex: 0 0 auto; /* フレックスアイテムとして振る舞う */
+    width: 150px; /* 固定幅を設定 */
+    height: 100%;
+    margin-right: 20px;
+   
+}
+.OMG {
+    position: relative;
+   
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 110px;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    overflow-x: auto; /* 横スクロール可能にする */
+    scroll-snap-type: x mandatory; /* スクロールのスナップを設定 */
+    -webkit-overflow-scrolling: touch; /* iOS Safari のスクロール性能向上 */
+}
+.OMGcard {
+    margin-right: 20px; /* カード間の余白を設定 */
+}
+.OMGcard-slider {
+    width: 150px;
+    background-color: #F2F7FF;
+    height: 150px;
+    object-fit: cover; /* 画像を親要素にフィットさせる */
+    border-radius: 20px; /* 必要に応じて角丸を設定 */
+}
+
+.OMGcard1 {
+    flex: 0 0 auto; /* フレックスアイテムとして振る舞う */
+    width: 150px; /* 固定幅を設定 */
+    height: 100%;
+    margin-right: 20px;
+    
+}
+.OMG1 {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    overflow-x: auto; /* 横スクロール可能にする */
+    scroll-snap-type: x mandatory; /* スクロールのスナップを設定 */
+    -webkit-overflow-scrolling: touch; /* iOS Safari のスクロール性能向上 */
+}
+.OMGcard1 {
+    margin-right: 20px; /* カード間の余白を設定 */
+}
+.OMGcard-slider1 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* 画像を親要素にフィットさせる */
+    border-radius: 20px; /* 必要に応じて角丸を設定 */
+}
+
+.myi{
+    padding: 170px 0 0 0;
+    text-align: center;
+   
+}
+.myidea{
+    color: #0B409C;
+}
+.canva{
+    margin: 30px 150px 20px 300px ;
+    
+}
